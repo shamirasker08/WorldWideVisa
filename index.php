@@ -1,3 +1,5 @@
+<?php require_once __DIR__ . '/components/Utility.php';?>
+
 <!DOCTYPE html>
 <html lang="zxx">
     
@@ -68,129 +70,7 @@
 
         
         <!-- Main Header -->
-        <header class="header style2">
-            <!-- Top Bar -->
-            <div class="header-top">
-                <div class="container">
-                    <div class="d-none d-xl-flex justify-content-between align-items-center flex-wrap">
-                        <!-- Left Box -->
-                        <div class="left-box d-flex align-items-center">
-                            <div class="logo">
-                                <a href="index.html" class="light_logo"><img src="assets/img/logo.png" alt="logo"></a>
-                            </div>
-                        </div>
-                        
-                        <!-- Right Box -->
-                        <div class="right-box d-flex align-items-center">
-                            <div class="wptb-icon-box1 wow fadeInLeft">
-                                <div class="wptb-item--inner flex-start">
-                                    <div class="wptb-item--icon"><i class="bi bi-envelope"></i></div>
-                                    <div class="wptb-item--holder">
-                                        <h5 class="wptb-item--title">worldwidevisa.wwv@gmail.com</h5>
-                                        <p class="wptb-item--description">Send Us mail</p>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="wptb-icon-box1 wow fadeInLeft">
-                                <div class="wptb-item--inner flex-start">
-                                    <div class="wptb-item--icon"><i class="bi bi-clock"></i></div>
-                                    <div class="wptb-item--holder">
-                                        <h5 class="wptb-item--title">Mon - Sat 8am - 7pm</h5>
-                                        <p class="wptb-item--description">Opening Hour</p>
-                                    </div>
-                                </div>
-                            </div>                                    
-                            
-                            <div class="wptb-icon-box1 wow fadeInLeft">
-                                <div class="wptb-item--inner flex-start">
-                                    <div class="wptb-item--icon"><i class="bi bi-geo-alt"></i></div>
-                                    <div class="wptb-item--holder">
-                                        <h5 class="wptb-item--title">WWV · 1st floor,</h5>
-                                        <p class="wptb-item--description">Ramanuja Nagar, Cbe, TN, India</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="button-box">
-                                <a href="contact.html" class="btn">
-                                    <span class="btn-wrap">
-                                        <span class="text-first">Book Appointment</span>
-                                        <span class="text-second">Book Appointment</span>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Lower Bar -->
-            <div class="header-inner">
-                <div class="container">
-                    <div class="d-flex align-items-center justify-content-between">
-                        <!-- Left Part -->
-                        <div class="header_left_part d-flex align-items-center">
-                            <div class="logo d-xl-none">
-                                <a href="index.html" class="light_logo"><img src="assets/img/logo.png" alt="logo"></a>
-                            </div>
-
-                            <div class="mainnav d-none d-xl-block">
-                                <ul class="main-menu">
-                                    <li class="menu-item">
-                                        <a href="index.html">Home</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="about.html">About Us</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="price-table.html">Pricing</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="careers.html">Careers</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="contact.html">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <!-- Right Part -->
-                        <div class="header_right_part d-flex align-items-center">
-                            <!-- Social Box -->
-                            <div class="social-box">
-                                <ul>
-                                    <li><a href="https://www.facebook.com/worldwidevisa0" class="bi bi-facebook" target="_blank"></a></li>
-                                    <li><a href="https://www.instagram.com/world._wide_visa?igsh=N2htZ2RidmQxa3Jm" class="bi bi-instagram" target="_blank"></a></li>
-                                    <!-- <li><a href="https://www.twitter.com/" class="bi bi-twitter-x" target="_blank"></a></li>
-                                    <li><a href="https://www.linkedin.com/" class="bi bi-linkedin" target="_blank"></a></li>     -->
-                                </ul>
-                            </div>
-                            
-                            <!-- Button Box -->
-                            <div class="wptb-icon-box1 live-chat bg-gradient-one d-none d-md-block">
-                                <div class="wptb-item--inner flex-start">
-                                    <div class="wptb-item--icon"><img src="assets/img/icon_call.png" alt="img"></div>
-                                    <div class="wptb-item--holder">
-                                        <h5 class="wptb-item--title">Call For Consultation</h5>
-                                        <p class="wptb-item--description">+91 75388 80425</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <button class="aside_open d-xl-none">
-                                <img src="assets/img/icon_grid.png" alt="img">
-                            </button>
-
-                            <button type="button" class="mr_menu_toggle d-xl-none">
-                                <i class="bi bi-list"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-			</div>
-		</header>
+        <?php include('header.php'); ?>
         <!-- End Main Header -->			
 
         <!-- Mobile Responsive Menu -->
@@ -204,7 +84,7 @@
         <div class="aside_info_wrapper">
 			<button class="aside_close"><i class="bi bi-x-lg"></i></button>
             <div class="aside_logo">
-                <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+                <a href="index.php"><img src="assets/img/logo.png" alt="logo"></a>
             </div>
 			<div class="aside_info_inner">
                 
@@ -428,7 +308,7 @@
                                 <div class="wptb-image-box1 wow fadeInLeft">
                                     <div class="wptb-item--inner">
                                         <div class="wptb-item--image">
-                                            <a href="service-details.html" class="wptb-item-link"><img src="assets/img/services/1.jpg" alt="img"></a>
+                                            <a href="#" class="wptb-item-link"><img src="assets/img/services/1.jpg" alt="img"></a>
                                         </div>
                                         <div class="wptb-item--holder">
                                             <div class="wptb-item--icon">
@@ -436,7 +316,7 @@
                                                 <img src="assets/img/services/icon-1.png" alt="icon">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9" fill="none"> <path d="M9 9C3 9 0.5 3 0 0V9H9Z"></path> </svg>
                                             </div>
-                                            <h4 class="wptb-item--title"><a href="service-details.html">Tourist Visa Processing</a></h4>
+                                            <h4 class="wptb-item--title"><a href="#">Tourist Visa Processing</a></h4>
                                             <div class="wptb-line-paper"></div>
                                             <p class="wptb-item--description">  Tourist Visa Processing made easy! We assist travelers in obtaining hassle-free tourist visas for leisure, sightseeing, or visiting loved ones across various international destinations...</p>
                                         </div>
@@ -448,7 +328,7 @@
                                 <div class="wptb-image-box1 wow fadeInLeft">
                                     <div class="wptb-item--inner">
                                         <div class="wptb-item--image">
-                                            <a href="service-details.html" class="wptb-item-link"><img src="assets/img/services/2.jpg" alt="img"></a>
+                                            <a href="#" class="wptb-item-link"><img src="assets/img/services/2.jpg" alt="img"></a>
                                         </div>
                                         <div class="wptb-item--holder">
                                             <div class="wptb-item--icon">
@@ -456,7 +336,7 @@
                                                 <img src="assets/img/services/icon-2.png" alt="icon">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9" fill="none"> <path d="M9 9C3 9 0.5 3 0 0V9H9Z"></path> </svg>
                                             </div>
-                                            <h4 class="wptb-item--title"><a href="service-details.html">Business Visas</a></h4>
+                                            <h4 class="wptb-item--title"><a href="#">Business Visas</a></h4>
                                             <div class="wptb-line-paper"></div>
                                             <p class="wptb-item--description">  Secure your Business Visa with ease! We help professionals travel abroad for meetings, conferences, trade events, and business opportunities with smooth and efficient visa processing support...</p>
                                         </div>
@@ -468,7 +348,7 @@
                                 <div class="wptb-image-box1 wow fadeInLeft">
                                     <div class="wptb-item--inner">
                                         <div class="wptb-item--image">
-                                            <a href="service-details.html" class="wptb-item-link"><img src="assets/img/services/3.jpg" alt="img"></a>
+                                            <a href="#" class="wptb-item-link"><img src="assets/img/services/3.jpg" alt="img"></a>
                                         </div>
                                         <div class="wptb-item--holder">
                                             <div class="wptb-item--icon">
@@ -476,7 +356,7 @@
                                                 <img src="assets/img/services/icon-3.png" alt="icon">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9" fill="none"> <path d="M9 9C3 9 0.5 3 0 0V9H9Z"></path> </svg>
                                             </div>
-                                            <h4 class="wptb-item--title"><a href="service-details.html">Student Visa Processing</a></h4>
+                                            <h4 class="wptb-item--title"><a href="#">Student Visa Processing</a></h4>
                                             <div class="wptb-line-paper"></div>
                                             <p class="wptb-item--description"> Achieve your academic goals abroad! We provide complete support for student visa applications, ensuring a smooth process for students aspiring to study at top international institutions...</p>
                                         </div>
@@ -599,7 +479,7 @@
                                 </div>
 
                                 <div class="wptb-item--button">
-                                    <a class="btn--readmore" href="contact.html">
+                                    <a class="btn--readmore" href="contact.php">
                                         <span class="btn-readmore--text"> Contact Us </span> <span class="btn-readmore--icon"> <i class="bi bi-arrow-right"></i> </span>
                                     </a>
                                 </div>
@@ -650,7 +530,7 @@
                                 </div>
 
                                 <div class="wptb-item--button">
-                                    <a class="btn--readmore" href="contact.html">
+                                    <a class="btn--readmore" href="contact.php">
                                         <span class="btn-readmore--text"> Contact Us </span> <span class="btn-readmore--icon"> <i class="bi bi-arrow-right"></i> </span>
                                     </a>
                                 </div>
@@ -705,7 +585,7 @@
                                 </div>
 
                                 <div class="wptb-item--button">
-                                    <a class="btn--readmore" href="contact.html">
+                                    <a class="btn--readmore" href="contact.php">
                                         <span class="btn-readmore--text"> Contact Us </span> <span class="btn-readmore--icon"> <i class="bi bi-arrow-right"></i> </span>
                                     </a>
                                 </div>
@@ -756,7 +636,7 @@
                                 </div>
 
                                 <div class="wptb-item--button">
-                                    <a class="btn--readmore" href="contact.html">
+                                    <a class="btn--readmore" href="contact.php">
                                         <span class="btn-readmore--text"> Contact Us </span> <span class="btn-readmore--icon"> <i class="bi bi-arrow-right"></i> </span>
                                     </a>
                                 </div>
@@ -803,7 +683,7 @@
                                 </div>
 
                                 <div class="wptb-item--button">
-                                    <a class="btn--readmore" href="contact.html">
+                                    <a class="btn--readmore" href="contact.php">
                                         <span class="btn-readmore--text"> Contact Us </span> <span class="btn-readmore--icon"> <i class="bi bi-arrow-right"></i> </span>
                                     </a>
                                 </div>
@@ -850,7 +730,7 @@
                                 </div>
 
                                 <div class="wptb-item--button">
-                                    <a class="btn--readmore" href="contact.html">
+                                    <a class="btn--readmore" href="contact.php">
                                         <span class="btn-readmore--text"> Contact Us </span> <span class="btn-readmore--icon"> <i class="bi bi-arrow-right"></i> </span>
                                     </a>
                                 </div>
@@ -897,7 +777,7 @@
                                 </div>
 
                                 <div class="wptb-item--button">
-                                    <a class="btn--readmore" href="contact.html">
+                                    <a class="btn--readmore" href="contact.php">
                                         <span class="btn-readmore--text"> Contact Us </span> <span class="btn-readmore--icon"> <i class="bi bi-arrow-right"></i> </span>
                                     </a>
                                 </div>
@@ -1229,43 +1109,12 @@
                             <div class="col-md-5 offset-md-1">
                                 <div class="wptb-appointment-form-one">
                                     <div class="wptb-form--wrapper">
-                                        <form class="wptb-form" action="https://wpthemebooster.com/demo/themeforest/html/immigway/contact.php" method="post">
+                                        <h2 style="color: #fff;" class="mb-3">Book an appointment</h2>
+                                        <form class="wptb-form" id="appointmentForm" action="#" method="post" novalidate> 
                                             <div class="wptb-form--inner">
-                                                <div class="wptb-heading">
-                                                    <div class="wptb-item--inner text-center">
-                                                        <h2 class="wptb-item--title"> <span>Book An Appointment</span></h2>
-                                                    </div>
-                                                </div>
+                                                <!-- ...your heading & structure... -->
 
                                                 <div class="row">
-                                                    <div class="col-md-6 col-lg-6 mb-4">
-                                                        <div class="form-group">
-                                                            <select name="country" class="form-control">
-                                                                <option value="">Select Country</option>
-                                                                <option value="Australia">Australia</option>
-                                                                <option value="Canada">Canada</option>
-                                                                <option value="Japan">Japan</option>
-                                                                <option value="Korea">Korea</option>
-                                                                <option value="USA">United States</option>
-                                                                <option value="UK">United Kingdon</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-6 col-lg-6 mb-4">
-                                                        <div class="form-group">
-                                                            <select name="country" class="form-control">
-                                                                <option value="">Select Service</option>
-                                                                <option value="PTE Exam Preperation">PTE Exam Preperation</option>
-                                                                <option value="TOEFL Exam Preperation">TOEFL Exam Preperation</option>
-                                                                <option value="GRE Exam">GRE Exam</option>
-                                                                <option value="IELTS">IELTS</option>
-                                                                <option value="Student Visa">Student Visa Processing</option>
-                                                                <option value="Family Visa Processing">Family Visa Processing</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    
                                                     <div class="col-md-6 col-lg-6 mb-4">
                                                         <div class="form-group">
                                                             <input type="text" name="name" class="form-control" placeholder="Your Full Name*" required>
@@ -1274,30 +1123,49 @@
 
                                                     <div class="col-md-6 col-lg-6 mb-4">
                                                         <div class="form-group">
-                                                            <input type="number" name="phone" class="form-control" placeholder="Phone No">
+                                                            <input type="tel" name="phone" class="form-control" placeholder="Phone No*" required pattern="[0-9]{10}" maxlength="15" title="Enter mobile number">
                                                         </div>
                                                     </div>
 
                                                     <div class="col-md-6 col-lg-6 mb-4">
                                                         <div class="form-group">
-                                                            <input type="text" name="date" class="flatpickr form-control" placeholder="Select Date" required>
+                                                            <input type="email" name="email" class="form-control" placeholder="Email" required>
                                                         </div>
                                                     </div>
 
                                                     <div class="col-md-6 col-lg-6 mb-4">
                                                         <div class="form-group">
-                                                            <input type="text" name="time" class="flatpickr-time form-control" placeholder="Select Time">
+                                                            <select name="country" class="form-control" required>
+                                                                <option value="">Select Country</option>
+                                                                <?php foreach (Utility::getCountries() as $country): ?>
+                                                                    <option value="<?= htmlspecialchars($country) ?>"><?= htmlspecialchars($country) ?></option>
+                                                                <?php endforeach; ?>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-6 col-lg-6 mb-4">
+                                                        <div class="form-group">
+                                                            <select name="service" class="form-control" required>
+                                                                <option value="">Select Service</option>
+                                                                <option value="Student Visa">Student Visa Processing</option>
+                                                                <option value="Family Visa Processing">Family Visa Processing</option>
+                                                                <option value="Buisness Visa Processing">Buisness Visa Processing</option>
+                                                            </select>
                                                         </div>
                                                     </div>
 
                                                     <div class="col-md-12 col-lg-12">
                                                         <div class="wptb-item--button text-center">
-                                                            <input class="btn" type="submit" value="Contact Us" name="submit">
+                                                            <input class="btn" type="submit" value="Contact Us">
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </form>
+
+                                        <div id="formResponse" class="text-center mt-3"></div>
+
 
                                         <div class="wptb-form--bottom">
                                             <div class="wptb-heading">
@@ -1412,7 +1280,7 @@
                                 <div class="wptb-item--price">
                                     <span class="wptb-service-price">Rs.11,499</span> <span class="wptb-service-price-for">Per Apply</span>
                                     <div class="wptb-item--button">
-                                        <a class="btn--readmore" href="contact.html">
+                                        <a class="btn--readmore" href="contact.php">
                                             <span class="btn-readmore--text">Get Started</span>
                                         </a>
                                     </div>
@@ -1455,7 +1323,7 @@
                                 <div class="wptb-item--price">
                                     <span class="wptb-service-price">Rs.11,499</span> <span class="wptb-service-price-for">Per Apply</span>
                                     <div class="wptb-item--button">
-                                        <a class="btn--readmore" href="contact.html">
+                                        <a class="btn--readmore" href="contact.php">
                                             <span class="btn-readmore--text">Get Started</span>
                                         </a>
                                     </div>
@@ -1498,7 +1366,7 @@
                                 <div class="wptb-item--price">
                                     <span class="wptb-service-price">Rs.11,499</span> <span class="wptb-service-price-for">Per Apply</span>
                                     <div class="wptb-item--button">
-                                        <a class="btn--readmore" href="contact.html">
+                                        <a class="btn--readmore" href="contact.php">
                                             <span class="btn-readmore--text">Get Started</span>
                                         </a>
                                     </div>
@@ -1541,7 +1409,7 @@
                                 <div class="wptb-item--price">
                                     <span class="wptb-service-price">Rs.11,499</span> <span class="wptb-service-price-for">Per Apply</span>
                                     <div class="wptb-item--button">
-                                        <a class="btn--readmore" href="contact.html">
+                                        <a class="btn--readmore" href="contact.php">
                                             <span class="btn-readmore--text">Get Started</span>
                                         </a>
                                     </div>
@@ -1584,7 +1452,7 @@
                                 <div class="wptb-item--price">
                                     <span class="wptb-service-price">Rs.11,499</span> <span class="wptb-service-price-for">Per Apply</span>
                                     <div class="wptb-item--button">
-                                        <a class="btn--readmore" href="contact.html">
+                                        <a class="btn--readmore" href="contact.php">
                                             <span class="btn-readmore--text">Get Started</span>
                                         </a>
                                     </div>
@@ -1627,7 +1495,7 @@
                                 <div class="wptb-item--price">
                                     <span class="wptb-service-price">Rs.11,499</span> <span class="wptb-service-price-for">Per Apply</span>
                                     <div class="wptb-item--button">
-                                        <a class="btn--readmore" href="contact.html">
+                                        <a class="btn--readmore" href="contact.php">
                                             <span class="btn-readmore--text">Get Started</span>
                                         </a>
                                     </div>
@@ -1670,7 +1538,7 @@
                                 <div class="wptb-item--price">
                                     <span class="wptb-service-price">Rs.11,499</span> <span class="wptb-service-price-for">Per Apply</span>
                                     <div class="wptb-item--button">
-                                        <a class="btn--readmore" href="contact.html">
+                                        <a class="btn--readmore" href="contact.php">
                                             <span class="btn-readmore--text">Get Started</span>
                                         </a>
                                     </div>
@@ -1808,149 +1676,7 @@
         </main>
 
         <!-- Footer 2 -->
-        <footer class="footer style2" style="background-image: url('assets/img/background/bg-2.jpg');">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="footer-upper-contact bg-gradient-one">
-                        <div class="row">
-                            <!-- Left Box -->
-                            <div class="col-lg-3 col-sm-6 mb-4 mb-sm-0">
-                                <div class="logo">
-                                    <a href="index.html" class="light_logo"><img src="assets/img/logo.png" alt="logo"></a>
-                                </div>
-                            </div>
-                            
-                            <!-- Right Box -->
-                            <div class="col-lg-3 col-sm-6 mb-4 mb-sm-0">
-                                <div class="wptb-icon-box1 wow fadeInLeft">
-                                    <div class="wptb-item--inner flex-start">
-                                        <div class="wptb-item--icon"><i class="bi bi-buildings"></i></div>
-                                        <div class="wptb-item--holder">
-                                            <p class="wptb-item--description">Ramanuja Nagar, <br>Coimbatore, TN, India</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-lg-3 col-sm-6 mb-4 mb-sm-0">
-                                <div class="wptb-icon-box1 wow fadeInLeft">
-                                    <div class="wptb-item--inner flex-start">
-                                        <div class="wptb-item--icon"><i class="bi bi-telephone-fill"></i></div>
-                                        <div class="wptb-item--holder">
-                                            <p class="wptb-item--description">+91 75388 80425</p>
-                                            <!-- <p class="wptb-item--description">+78 678 4556 892</p> -->
-                                        </div>
-                                    </div>
-                                </div> 
-                            </div>
-                            
-                            <div class="col-lg-3 col-sm-6 mb-4 mb-sm-0">
-                                <div class="social-box">
-                                    <ul>
-                                        <li><a href="https://www.facebook.com/worldwidevisa0" target="_blank" class="bi bi-facebook"></a></li>
-                                        <li><a href="https://www.instagram.com/world._wide_visa?igsh=N2htZ2RidmQxa3Jm" target="_blank" class="bi bi-instagram"></a></li>
-                                        <!-- <li><a href="https://www.linkedin.com/" class="bi bi-linkedin"></a></li> -->
-                                        
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-xl-5 mb-5 mb-xl-0">
-                            <h3 class="text-white"> We are shaping your dream future</h3>
-                            <p class="text-white">Indignation and dislike men who are so beguiled and of pleasure of the moment so blinded</p>
-                        
-                            
-                            <h6 class="widget-title lg">OUR VISA IMMIGRATION SERVICES</h6>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="footer-nav">
-                                        <ul>
-                                            <li class="menu-item"><a href="contact.html"><i class="bi bi-arrow-right"></i> Tourist Visa Processing</a></li>
-                                            <li class="menu-item"><a href="contact.html"><i class="bi bi-arrow-right"></i> Green Card Application</a></li>
-                                            <li class="menu-item"><a href="contact.html"><i class="bi bi-arrow-right"></i> Student Visa Processing</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="footer-nav">
-                                        <ul>
-                                            <li class="menu-item"><a href="contact.html"><i class="bi bi-arrow-right"></i> Migration Consultancy</a></li>
-                                            <li class="menu-item"><a href="contact.html"><i class="bi bi-arrow-right"></i> Green Card Application</a></li>
-                                            <li class="menu-item"><a href="contact.html"><i class="bi bi-arrow-right"></i> Student Visa Processing</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <a href="contact-1.html" class="btn bg-gradient-one mt-4">
-                                <span class="btn-wrap">
-                                    <span class="text-first">Get Consultancy</span>
-                                    <span class="text-second">Get Consultancy</span>
-                                </span>
-                            </a>
-                        </div>
-
-                        <div class="col-xl-7">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-6 mb-5 mb-md-0">
-                                    <div class="footer-widget footer-links">
-                                        <h5 class="widget-title">Useful Links</h5>
-                                        <div class="footer-nav">
-                                            <ul>
-                                                <li class="menu-item"><a href="about.html"><i class="bi bi-circle-fill"></i> About Company</a></li>
-                                                <li class="menu-item"><a href="contact.html"><i class="bi bi-circle-fill"></i> Contact Us</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-        
-                                <div class="col-md-4 col-sm-6 mb-5 mb-md-0">
-                                    <div class="footer-widget footer-links">
-                                        <h5 class="widget-title">Other Services</h5>
-                                        <div class="footer-nav">
-                                            <ul>
-                                                <li class="menu-item"><a href="contact.html"><i class="bi bi-circle-fill"></i> Visa Eligibility Check</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-        
-                                <div class="col-md-4 col-sm-6 mb-5 mb-md-0">
-                                    <div class="footer-widget footer-links">
-                                        <h5 class="widget-title">Opportunities</h5>
-                                        <div class="footer-nav">
-                                            <ul>
-                                                <li class="menu-item"><a href="#"><i class="bi bi-circle-fill"></i> Meet Our Team</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Footer Bottom Part -->
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="footer-bottom-inner" style="justify-content: center;">
-                        <div class="copyright">
-                            <p>&copy; <span id="year"></span> World Wide Visa. All rights reserved.</p>
-                            <script>
-                            // Get the current year
-                            const currentYear = new Date().getFullYear();
-                            // Set the year in the span with id 'year'
-                            document.getElementById('year').textContent = currentYear;
-                            </script>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <?php include('footer.php'); ?>
 
 
         <div class="totop">
@@ -1985,6 +1711,60 @@
 
         <!-- Theme Custom JS -->
         <script src="assets/js/theme.js"></script>
+
+        <script>
+            document.getElementById('appointmentForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+
+                const form = e.target;
+                const formData = new FormData(form);
+                const phone = formData.get('phone');
+
+                // Show the preloader (remove the 'hide' class to make it visible)
+                document.getElementById('preloader').classList.remove('hide');  // Remove 'hide' to show preloader
+                const responseDiv = document.getElementById('formResponse');
+
+                if (!/^\d{10,15}$/.test(phone)) {
+                    alert("Please enter a valid phone number (10 to 15 digits).");
+                    return;
+                }
+
+                fetch('send_appointment_mail.php', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(res => res.json())
+                .then(data => {
+                    if (data.success) {
+                        responseDiv.innerHTML = `<div class="alert alert-success">${data.message}</div>`;
+                        form.reset();
+                    } else {
+                        responseDiv.innerHTML = `<div class="alert alert-danger">${data.message}</div>`;
+                    }
+
+                    // Hide the preloader (add the 'hide' class)
+                    document.getElementById('preloader').classList.add('hide');  // Add 'hide' to hide preloader
+
+                    // Auto-hide the response message after 5 seconds
+                    setTimeout(() => {
+                        responseDiv.innerHTML = '';
+                    }, 5000); // 5000ms = 5 seconds
+                })
+                .catch(err => {
+                    responseDiv.innerHTML = `<div class="alert alert-danger">Something went wrong. Please try again.</div>`;
+                    console.error('Fetch Error:', err);
+
+                    // Hide the preloader (add the 'hide' class)
+                    document.getElementById('preloader').classList.add('hide');  // Add 'hide' to hide preloader
+
+                    // Auto-hide the error message after 5 seconds
+                    setTimeout(() => {
+                        responseDiv.innerHTML = '';
+                    }, 5000);
+                });
+            });
+            </script>
+
     </body>
 
 <!-- Mirrored from wpthemebooster.com/demo/themeforest/html/immigway/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Apr 2025 14:30:50 GMT -->

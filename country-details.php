@@ -7,8 +7,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-        <meta name="description" content="Immigway - Immigration & Visa Solutions Template">
-        <meta name="author" content="">
+        <meta name="description" content="World Wide Visa - Immigration & Visa Solutions">
+        <meta name="author" content="WWV(World Wide Visa) a full-service consultation firm with record of winning many successful campaigns. For a growing business firm we provide market research & competitor analysis before a product launch in market.">
 
         <!-- Favicon and touch Icons -->
         <link href="assets/img/favicon.png" rel="shortcut icon" type="image/png">
@@ -18,7 +18,7 @@
         <link href="assets/img/apple-touch-icon-144x144.html" rel="apple-touch-icon" sizes="144x144">
 
         <!-- Page Title -->
-        <title>Immigway - Immigration & Visa Solutions Template</title>    
+        <title>World Wide Visa - Immigration & Visa Solutions</title>    
         
         <!-- Styles Include -->
         <link rel="stylesheet" href="assets/css/main.css">
@@ -33,151 +33,42 @@
 			<div class="preloader-inner">
 				<div class="spinner"></div>
 				<div class="loading-text">
-					<span data-preloader-text="I" class="characters">I</span>
+					<span data-preloader-text="W" class="characters">W</span>
 					
-					<span data-preloader-text="M" class="characters">M</span>
+					<span data-preloader-text="O" class="characters">O</span>
 					
-					<span data-preloader-text="M" class="characters">M</span>
+					<span data-preloader-text="R" class="characters">R</span>
 					
-					<span data-preloader-text="I" class="characters">I</span>
+					<span data-preloader-text="L" class="characters">L</span>
 					
-					<span data-preloader-text="G" class="characters">G</span>
+					<span data-preloader-text="D" class="characters">D</span>
+
+                    <span data-preloader-text=" " class="characters"> </span>
 
 					<span data-preloader-text="W" class="characters">W</span>
 
-					<span data-preloader-text="A" class="characters">A</span>
+					<span data-preloader-text="I" class="characters">I</span>
 
-					<span data-preloader-text="Y" class="characters">Y</span>
+					<span data-preloader-text="D" class="characters">D</span>
+
+                    <span data-preloader-text="E" class="characters">E</span>
+
+                    <span data-preloader-text=" " class="characters"> </span>
+
+                    <span data-preloader-text="V" class="characters">V</span>
+
+                    <span data-preloader-text="I" class="characters">I</span>
+
+                    <span data-preloader-text="S" class="characters">S</span>
+
+                    <span data-preloader-text="A" class="characters">A</span>
 				</div>
 			</div>
 		</div>
 
         
         <!-- Main Header -->
-        <header class="header style2">
-            <!-- Top Bar -->
-            <div class="header-top">
-                <div class="container">
-                    <div class="d-none d-xl-flex justify-content-between align-items-center flex-wrap">
-                        <!-- Left Box -->
-                        <div class="left-box d-flex align-items-center">
-                            <div class="logo">
-                                <a href="index.html" class="light_logo"><img src="assets/img/logo.png" alt="logo"></a>
-                            </div>
-                        </div>
-                        
-                        <!-- Right Box -->
-                        <div class="right-box d-flex align-items-center">
-                            <div class="wptb-icon-box1 wow fadeInLeft">
-                                <div class="wptb-item--inner flex-start">
-                                    <div class="wptb-item--icon"><i class="bi bi-envelope"></i></div>
-                                    <div class="wptb-item--holder">
-                                        <h5 class="wptb-item--title">immgway@gmail.com</h5>
-                                        <p class="wptb-item--description">Send Us mail</p>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="wptb-icon-box1 wow fadeInLeft">
-                                <div class="wptb-item--inner flex-start">
-                                    <div class="wptb-item--icon"><i class="bi bi-clock"></i></div>
-                                    <div class="wptb-item--holder">
-                                        <h5 class="wptb-item--title">Mon - Fri 8am - 8pm</h5>
-                                        <p class="wptb-item--description">Opening Hour</p>
-                                    </div>
-                                </div>
-                            </div>                                    
-                            
-                            <div class="wptb-icon-box1 wow fadeInLeft">
-                                <div class="wptb-item--inner flex-start">
-                                    <div class="wptb-item--icon"><i class="bi bi-geo-alt"></i></div>
-                                    <div class="wptb-item--holder">
-                                        <h5 class="wptb-item--title">336 Utah City Centre</h5>
-                                        <p class="wptb-item--description">Utah City, USA-77</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="button-box">
-                                <a href="contact.html" class="btn">
-                                    <span class="btn-wrap">
-                                        <span class="text-first">Book Appointment</span>
-                                        <span class="text-second">Book Appointment</span>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Lower Bar -->
-            <div class="header-inner">
-                <div class="container">
-                    <div class="d-flex align-items-center justify-content-between">
-                        <!-- Left Part -->
-                        <div class="header_left_part d-flex align-items-center">
-                            <div class="logo d-xl-none">
-                                <a href="index.html" class="light_logo"><img src="assets/img/logo.png" alt="logo"></a>
-                            </div>
-
-                            <div class="mainnav d-none d-xl-block">
-                                <ul class="main-menu">
-                                    <li class="menu-item">
-                                        <a href="index.html">Home</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="about.html">About Us</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="price-table.html">Pricing</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="careers.html">Careers</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="contact.html">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <!-- Right Part -->
-                        <div class="header_right_part d-flex align-items-center">
-                            <!-- Social Box -->
-                            <div class="social-box">
-                                <ul>
-                                    <li><a href="https://www.facebook.com/worldwidevisa0" class="bi bi-facebook" target="_blank"></a></li>
-                                    <li><a href="https://www.instagram.com/world._wide_visa?igsh=N2htZ2RidmQxa3Jm" class="bi bi-instagram" target="_blank"></a></li>
-                                    <!-- <li><a href="https://www.twitter.com/" class="bi bi-twitter-x" target="_blank"></a></li>
-                                    <li><a href="https://www.linkedin.com/" class="bi bi-linkedin" target="_blank"></a></li>     -->
-                                    
-                                </ul>
-                            </div>
-                            
-                            <!-- Button Box -->
-                            <div class="wptb-icon-box1 live-chat bg-gradient-one d-none d-md-block">
-                                <div class="wptb-item--inner flex-start">
-                                    <div class="wptb-item--icon"><img src="assets/img/icon_call.png" alt="img"></div>
-                                    <div class="wptb-item--holder">
-                                        <h5 class="wptb-item--title">Call For Consultation</h5>
-                                        <p class="wptb-item--description">+91 75388 80425</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <button class="aside_open d-xl-none">
-                                <img src="assets/img/icon_grid.png" alt="img">
-                            </button>
-
-                            <button type="button" class="mr_menu_toggle d-xl-none">
-                                <i class="bi bi-list"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-			</div>
-		</header>
+        <?php include('header.php'); ?>
         <!-- End Main Header -->			
 
         <!-- Mobile Responsive Menu -->
@@ -191,7 +82,7 @@
         <div class="aside_info_wrapper">
 			<button class="aside_close"><i class="bi bi-x-lg"></i></button>
             <div class="aside_logo">
-                <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+                <a href="index.php"><img src="assets/img/logo.png" alt="logo"></a>
             </div>
 			<div class="aside_info_inner">
                 
@@ -245,7 +136,7 @@
                                 <div class="sidenav">
                                     <ul class="side_menu">
 										<li class="menu-item active">
-											<a href="country-details.html" class="d-flex align-items-center justify-content-between">
+											<a href="country-details.php" class="d-flex align-items-center justify-content-between">
 												<span>
                                                     <img src="assets/img/country/uk.jpg" alt="">
                                                     United Kingdom
@@ -255,7 +146,7 @@
 										</li>
 
 										<li class="menu-item">
-											<a href="country-details.html" class="d-flex align-items-center justify-content-between">
+											<a href="country-details.php" class="d-flex align-items-center justify-content-between">
 												<span>
                                                     <img src="assets/img/country/germany.jpg" alt="">
                                                     Germany
@@ -265,7 +156,7 @@
 										</li>
                                         
 										<li class="menu-item">
-											<a href="country-details.html" class="d-flex align-items-center justify-content-between">
+											<a href="country-details.php" class="d-flex align-items-center justify-content-between">
 												<span>
                                                     <img src="assets/img/country/usa.jpg" alt="">
                                                     United States of America
@@ -275,7 +166,7 @@
 										</li>
                                         
 										<li class="menu-item">
-											<a href="country-details.html" class="d-flex align-items-center justify-content-between">
+											<a href="country-details.php" class="d-flex align-items-center justify-content-between">
 												<span>
                                                     <img src="assets/img/country/canada.jpg" alt="">
                                                     Canada
@@ -285,7 +176,7 @@
 										</li>
                                         
 										<li class="menu-item">
-											<a href="country-details.html" class="d-flex align-items-center justify-content-between">
+											<a href="country-details.php" class="d-flex align-items-center justify-content-between">
 												<span>
                                                     <img src="assets/img/country/finland.jpg" alt="">
                                                     Finland
@@ -295,7 +186,7 @@
 										</li>
                                         
 										<li class="menu-item">
-											<a href="country-details.html" class="d-flex align-items-center justify-content-between">
+											<a href="country-details.php" class="d-flex align-items-center justify-content-between">
 												<span>
                                                     <img src="assets/img/country/australia.jpg" alt="">
                                                     Australia
@@ -602,168 +493,8 @@
 			
 		</main>
 
-        <!-- Footer -->
-        <footer class="footer style1" style="background-image: url('assets/img/background/bg-1.jpg');">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="footer-upper-contact">
-                        <div class="row">
-                            <!-- Left Box -->
-                            <div class="col-lg-3 col-sm-6 mb-4 mb-sm-0">
-                                <div class="logo">
-                                    <a href="index.html" class="light_logo"><img src="assets/img/logo.png" alt="logo"></a>
-                                </div>
-                            </div>
-                            
-                            <!-- Right Box -->
-                            <div class="col-lg-3 col-sm-6 mb-4 mb-sm-0">
-                                <div class="wptb-icon-box1 wow fadeInLeft">
-                                    <div class="wptb-item--inner flex-start">
-                                        <div class="wptb-item--icon"><i class="bi bi-buildings"></i></div>
-                                        <div class="wptb-item--holder">
-                                            <p class="wptb-item--description">69 Street, 5th Avenue <br> LA, United States</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-lg-3 col-sm-6 mb-4 mb-sm-0">
-                                <div class="wptb-icon-box1 wow fadeInLeft">
-                                    <div class="wptb-item--inner flex-start">
-                                        <div class="wptb-item--icon"><i class="bi bi-telephone-fill"></i></div>
-                                        <div class="wptb-item--holder">
-                                            <p class="wptb-item--description">+78 233 4556 890</p>
-                                            <p class="wptb-item--description">+78 678 4556 892</p>
-                                        </div>
-                                    </div>
-                                </div> 
-                            </div>
-                            
-                            <div class="col-lg-3 col-sm-6 mb-4 mb-sm-0">
-                                <div class="social-box">
-                                    <ul>
-                                        <li><a href="https://www.facebook.com/worldwidevisa0" class="bi bi-facebook"></a></li>
-                                        <li><a href="https://www.instagram.com/world._wide_visa?igsh=N2htZ2RidmQxa3Jm" class="bi bi-instagram"></a></li>
-                                        <li><a href="https://www.linkedin.com/" class="bi bi-linkedin"></a></li>
-                                        
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-xl-5 mb-5 mb-xl-0">
-                            <h3 class="text-two"> We are shaping your dream future</h3>
-                            <p class="text-two">Indignation and dislike men who are so beguiled and of pleasure of the moment so blinded</p>
-                        
-                            
-                            <h6 class="widget-title lg">OUR VISA IMMIGRATION SERVICES</h6>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="footer-nav">
-                                        <ul>
-                                            <li class="menu-item"><a href="#"><i class="bi bi-arrow-right"></i> Tourist Visa Processing</a></li>
-                                            <li class="menu-item"><a href="#"><i class="bi bi-arrow-right"></i> Green Card Application</a></li>
-                                            <li class="menu-item"><a href="#"><i class="bi bi-arrow-right"></i> Student Visa Processing</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="footer-nav">
-                                        <ul>
-                                            <li class="menu-item"><a href="#"><i class="bi bi-arrow-right"></i> Migration Consultancy</a></li>
-                                            <li class="menu-item"><a href="#"><i class="bi bi-arrow-right"></i> Green Card Application</a></li>
-                                            <li class="menu-item"><a href="#"><i class="bi bi-arrow-right"></i> Student Visa Processing</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <a href="contact-1.html" class="btn mt-4">
-                                <span class="btn-wrap">
-                                    <span class="text-first">Get Consultancy</span>
-                                    <span class="text-second">Get Consultancy</span>
-                                </span>
-                            </a>
-                        </div>
-
-                        <div class="col-xl-7">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-6 mb-5 mb-md-0">
-                                    <div class="footer-widget footer-links">
-                                        <h5 class="widget-title">Useful Links</h5>
-                                        <div class="footer-nav">
-                                            <ul>
-                                                <li class="menu-item"><a href="about.html"><i class="bi bi-circle-fill"></i> About Company</a></li>
-                                                <li class="menu-item"><a href="timeline.html"><i class="bi bi-circle-fill"></i> Our Experience</a></li>
-                                                <li class="menu-item"><a href="case.html"><i class="bi bi-circle-fill"></i> Case Studies</a></li>
-                                                <li class="menu-item"><a href="#"><i class="bi bi-circle-fill"></i> Travel Insurance</a></li>
-                                                <li class="menu-item"><a href="appointments.html"><i class="bi bi-circle-fill"></i> Get Appointment</a></li>
-                                                <li class="menu-item"><a href="#"><i class="bi bi-circle-fill"></i> Cost Calculation</a></li>
-                                                <li class="menu-item"><a href="contact-1.html"><i class="bi bi-circle-fill"></i> Contact Us</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-        
-                                <div class="col-md-4 col-sm-6 mb-5 mb-md-0">
-                                    <div class="footer-widget footer-links">
-                                        <h5 class="widget-title">Exams Services</h5>
-                                        <div class="footer-nav">
-                                            <ul>
-                                                <li class="menu-item"><a href="#"><i class="bi bi-circle-fill"></i> IELTS Preparation</a></li>
-                                                <li class="menu-item"><a href="#"><i class="bi bi-circle-fill"></i> TOEFL Preparation</a></li>
-                                                <li class="menu-item"><a href="#"><i class="bi bi-circle-fill"></i> Student Referral Program</a></li>
-                                                <li class="menu-item"><a href="#"><i class="bi bi-circle-fill"></i> PTE Exam Preparation</a></li>
-                                                <li class="menu-item"><a href="#"><i class="bi bi-circle-fill"></i> NAATI Preparation</a></li>
-                                                <li class="menu-item"><a href="#"><i class="bi bi-circle-fill"></i> IT Professional Program</a></li>
-                                                <li class="menu-item"><a href="#"><i class="bi bi-circle-fill"></i> Visa Eligibility Check</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-        
-                                <div class="col-md-4 col-sm-6 mb-5 mb-md-0">
-                                    <div class="footer-widget footer-links">
-                                        <h5 class="widget-title">Opportunities</h5>
-                                        <div class="footer-nav">
-                                            <ul>
-                                                <li class="menu-item"><a href="#"><i class="bi bi-circle-fill"></i> International Career</a></li>
-                                                <li class="menu-item"><a href="#"><i class="bi bi-circle-fill"></i> Top Universities</a></li>
-                                                <li class="menu-item"><a href="#"><i class="bi bi-circle-fill"></i> Top Courses</a></li>
-                                                <li class="menu-item"><a href="#"><i class="bi bi-circle-fill"></i> Top Countries</a></li>
-                                                <li class="menu-item"><a href="#"><i class="bi bi-circle-fill"></i> Affiliate Programs </a></li>
-                                                <li class="menu-item"><a href="#"><i class="bi bi-circle-fill"></i> Meet Our Team</a></li>
-                                                <li class="menu-item"><a href="#"><i class="bi bi-circle-fill"></i> Legal Disclaimer</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Footer Bottom Part -->
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="footer-bottom-inner">
-                        <div class="copyright">
-                            <p>&copy;Copyright 2024 <a href="https://themeforest.net/user/wpthemebooster">Immigway</a>. All rights reserved</p>
-                        </div>
-                        <div class="footer-nav-bottom">
-                            <ul>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Term of Use</a></li>
-                                <li><a href="#">Support</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <!-- Footer 2 -->
+        <?php include('footer.php'); ?>
 
 
         <div class="totop">
@@ -800,5 +531,5 @@
         <script src="assets/js/theme.js"></script>
     </body>
 
-<!-- Mirrored from wpthemebooster.com/demo/themeforest/html/immigway/country-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Apr 2025 14:31:37 GMT -->
+<!-- Mirrored from wpthemebooster.com/demo/themeforest/html/immigway/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Apr 2025 14:30:50 GMT -->
 </html>
